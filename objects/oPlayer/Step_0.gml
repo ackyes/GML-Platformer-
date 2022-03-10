@@ -12,6 +12,11 @@ var _move = key_right - key_left;
 hsp = _move * walksp;
 vsp = vsp + grv;
 
+if (place_meeting(x,y+1,oWall)) && (key_jump)
+{
+	vsp = -jumpsp
+}
+
 // Horizontal collision
 if (place_meeting(x+hsp,y,oWall))
 {
