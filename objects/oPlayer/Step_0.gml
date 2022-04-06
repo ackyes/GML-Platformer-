@@ -39,8 +39,8 @@ if (place_meeting(x,y+vsp,oWall))
 }
 y = y + vsp;
 
-//Animation
-if (!place_meeting(x, y+1, oWall))
+ //Animation
+if (!place_meeting(x,y+1,oWall))
 {
 		sprite_index = sPlayerA;
 		image_speed = 0;
@@ -58,3 +58,5 @@ else
 		sprite_index = sPlayerR;
 	}
 }
+
+if (hsp != 0) image_xscale = sign(hsp);
