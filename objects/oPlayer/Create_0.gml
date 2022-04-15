@@ -11,3 +11,9 @@ walksp = 4;
 // jumping speed
 jumpsp = 9;
 
+//starting position
+y_start = y - 60;
+x_start = x;
+
+
+

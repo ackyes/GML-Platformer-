@@ -60,3 +60,10 @@ else
 }
 
 if (hsp != 0) image_xscale = sign(hsp);
+
+ //Respawn if player drop below screen
+if (y > room_height + 200)
+{
+	y = y_start;
+	x = x_start;
+}
