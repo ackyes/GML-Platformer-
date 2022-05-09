@@ -1,6 +1,5 @@
 {
   "resources": [
-    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":2,},
     {"id":{"name":"sWarp","path":"sprites/sWarp/sWarp.yy",},"order":8,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
     {"id":{"name":"Tilesettest","path":"rooms/Tilesettest/Tilesettest.yy",},"order":1,},
@@ -9,6 +8,7 @@
     {"id":{"name":"oWarp","path":"objects/oWarp/oWarp.yy",},"order":2,},
     {"id":{"name":"sInvisibleWall","path":"sprites/sInvisibleWall/sInvisibleWall.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":2,},
     {"id":{"name":"sGrain","path":"sprites/sGrain/sGrain.yy",},"order":7,},
     {"id":{"name":"sWalls","path":"sprites/sWalls/sWalls.yy",},"order":4,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":1,},
@@ -31,8 +31,8 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Tilesettest","path":"rooms/Tilesettest/Tilesettest.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Tilesettest","path":"rooms/Tilesettest/Tilesettest.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
