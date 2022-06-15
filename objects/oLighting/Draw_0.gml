@@ -32,9 +32,10 @@ else
 			var _sh = sprite_height / 2;
 			switch(object_index)
 				{
-				/*case oStar:
+				case oHeart:
 					draw_sprite_ext(sLight, 0, x - _cx, y - _cy, 0.5 + random(0.05), 0.5 + random(0.05), 0, c_white, 1);
-					break;
+					break; 
+				/*
 				case oGhost:
 					draw_sprite_ext(sLight, 0, x + _sw - _cx, y + _sh - _cy, 0.75, 0.75, 0, c_white, 1);
 					break;*/
