@@ -9,7 +9,7 @@
     "name": "sPlayer",
     "path": "sprites/sPlayer/sPlayer.yy",
   },
-  "persistent": true,
+  "persistent": false,
   "parentObjectId": {
     "name": "oLightParent",
     "path": "objects/oLightParent/oLightParent.yy",

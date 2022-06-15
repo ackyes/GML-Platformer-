@@ -64,7 +64,10 @@ if (hsp != 0) image_xscale = sign(hsp);
  //Respawn if player drop below screen
 if (y > room_height + 200)
 {
-	lives = lives -1
+	if lives >= 1
+		{
+		lives = lives -1
+		}
 	y = y_start;
 	x = x_start;
 }

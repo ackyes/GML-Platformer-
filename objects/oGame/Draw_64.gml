@@ -7,17 +7,19 @@ for(i=0;i<lives;i++){												// loop through the number of hearts we have
 }
 
 //game over screen
-if room == rm_gameover
+switch(room)
 	{
-	draw_set_halign(fa_center);
-	draw_set_valign(fa_top);
-	draw_set_colour(c_red);
-	draw_set_alpha(1);
-	draw_text_transformed(250, 150, string("YOU LOSE ") + "", 3, 3, 0);
-	draw_set_colour(c_white);
-	draw_text(250, 300, string(">> PRESS ENTER TO RESTART <<" ) + "");
-	draw_set_halign(fa_left);
-	}	
+	case rm_gameover:
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_top);
+		draw_set_colour(c_red);
+		draw_set_alpha(1);
+		draw_text_transformed(250, 150, string("YOU LOSE ") + "", 3, 3, 0);
+		draw_set_colour(c_white);
+		draw_text(250, 300, string(">> PRESS ENTER TO RESTART <<" ) + "");
+		draw_set_halign(fa_left);
+	break;
+	}		
 //pausing game
 if paused == true
 {
