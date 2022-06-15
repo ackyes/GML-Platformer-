@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
     {"id":{"name":"sLight","path":"sprites/sLight/sLight.yy",},"order":9,},
     {"id":{"name":"oLightParent","path":"objects/oLightParent/oLightParent.yy",},"order":3,},
     {"id":{"name":"sWarp","path":"sprites/sWarp/sWarp.yy",},"order":8,},
