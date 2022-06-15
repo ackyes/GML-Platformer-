@@ -1,5 +1,6 @@
 /// @desc Establish some key variables
-
+// heath of the player
+health = 3;	
 // horizontal speed
 hsp = 0;
 // vertical speed

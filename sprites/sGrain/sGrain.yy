@@ -59,7 +59,7 @@
     "eventToFunction": {},
     "eventStubScript": null,
     "parent": {"name":"sGrain","path":"sprites/sGrain/sGrain.yy",},
-    "resourceVersion": "1.4",
+    "resourceVersion": "1.3",
     "name": "sGrain",
     "tags": [],
     "resourceType": "GMSequence",
