@@ -10,7 +10,10 @@
     "path": "sprites/sPlayer/sPlayer.yy",
   },
   "persistent": true,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "oLightParent",
+    "path": "objects/oLightParent/oLightParent.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
